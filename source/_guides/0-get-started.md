@@ -25,9 +25,9 @@ We provide a couple of API clients in popular programming languages, but the RES
 
 ## Versioning
 
-Before we dive into the API more, you should be aware of versioning. The header `Api-Version` expects a full number as value. The current version for now and the near future is 1. You should always send the API version header when making requests. The pre built libraries already do that by default, sending the correct header for the version of the API they are using.
+Before we dive into the API more, you should be aware of versioning. The header `Api-Version` expects a full number as value. The current version for now and the near future is 1. You should always send the API version header when making requests. __The [pre built libraries](https://github.com/rokka-io) already do that by default__, sending the correct header for the version of the API they are using.
 
-If you do not use the version header, Rokka will always default to the latest version! In other words: __If you don't send the version header, your application might break at any time__ - you have been warned.
+If you do not use the version header, Rokka will always default to the latest version! In other words: If you don't send the version header, your application might break at any time - you have been warned.
 
 ## Registration
 
